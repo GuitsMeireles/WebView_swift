@@ -1,24 +1,14 @@
-//
-//  ContentView.swift
-//  IOS_WebView
-//
-//  Created by Guilherme Meireles on 14/06/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        WebView(url: URL(string: "https://www.youtube.com/watch?v=0W9ZCO8ENLI")!)
+            .edgesIgnoringSafeArea(.all)
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }

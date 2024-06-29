@@ -14,6 +14,7 @@
 		0C1EBB1F2C1C7F180079B7F9 /* IOS_WebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1EBB1E2C1C7F180079B7F9 /* IOS_WebViewTests.swift */; };
 		0C1EBB292C1C7F180079B7F9 /* IOS_WebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1EBB282C1C7F180079B7F9 /* IOS_WebViewUITests.swift */; };
 		0C1EBB2B2C1C7F180079B7F9 /* IOS_WebViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1EBB2A2C1C7F180079B7F9 /* IOS_WebViewUITestsLaunchTests.swift */; };
+		0C1EBB382C1C81160079B7F9 /* UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1EBB372C1C81160079B7F9 /* UIViewRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		0C1EBB242C1C7F180079B7F9 /* IOS_WebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_WebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1EBB282C1C7F180079B7F9 /* IOS_WebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_WebViewUITests.swift; sourceTree = "<group>"; };
 		0C1EBB2A2C1C7F180079B7F9 /* IOS_WebViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_WebViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C1EBB372C1C81160079B7F9 /* UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				0C1EBB102C1C7F180079B7F9 /* Assets.xcassets */,
 				0C1EBB122C1C7F180079B7F9 /* IOS_WebView.entitlements */,
 				0C1EBB132C1C7F180079B7F9 /* Preview Content */,
+				0C1EBB372C1C81160079B7F9 /* UIViewRepresentable.swift */,
 			);
 			path = IOS_WebView;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				0C1EBB0F2C1C7F140079B7F9 /* ContentView.swift in Sources */,
 				0C1EBB0D2C1C7F140079B7F9 /* IOS_WebViewApp.swift in Sources */,
+				0C1EBB382C1C81160079B7F9 /* UIViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
